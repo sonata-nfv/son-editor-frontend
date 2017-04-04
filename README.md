@@ -1,5 +1,16 @@
 # upb-son-editor-frontend
-Student project group's network service editor frontend. 
 
-The current state of the frontend is deployed at http://fg-cn-sandman1.cs.upb.de/ .  
-The most recent version will also be deployed on https://cn-upb.github.io/upb-son-editor-frontend/ via Github Pages
+Frontend of son-editor. For details about the editor and install instructions see: [son-editor-backend](https://github.com/sonata-nfv/son-editor-backend).
+
+## Dependencies
+
+* jsPlumb http://jsplumbtoolkit.com/
+* Bootstrap Filestyle https://github.com/markusslima/bootstrap-filestyle/
+* JSON Editor https://github.com/jdorn/json-editor/
+* JS-YAML https://github.com/nodeca/js-yaml
+* Knockout.js http://knockoutjs.com/
+* JQuery https://jquery.org/
+* jQuery Panzoom https://github.com/timmywil/jquery.panzoom
+* Parsley http://github.com/guillaumepotier/Parsley.js
+* Chosen https://github.com/harvesthq/chosen
+
