@@ -2,15 +2,17 @@
 
 This is the backend of SONATA's web-based service and function descriptor editor. Please check the backend's repository to find installation and configuration instructions as well as further documentation: [son-editor-backend](https://github.com/sonata-nfv/son-editor-backend).
 
+![son-editor screenshot](https://github.com/sonata-nfv/son-editor-frontend/raw/master/screenshot_network_editor.png "Screenshot of son-editor's NSD editor view")
+
 ## Dependencies
 
 * [jsPlumb](http://jsplumbtoolkit.com/)
-* [Bootstrap](Filestyle https://github.com/markusslima/bootstrap-filestyle/)
+* [Bootstrap Filestyle](https://github.com/markusslima/bootstrap-filestyle/)
 * [JSON Editor](https://github.com/jdorn/json-editor/)
 * [JS-YAML](https://github.com/nodeca/js-yaml)
 * [Knockout.js](http://knockoutjs.com/)
 * [JQuery](https://jquery.org/)
-* [jQuery](Panzoom https://github.com/timmywil/jquery.panzoom)
+* [jQuery Panzoom] (https://github.com/timmywil/jquery.panzoom)
 * [Parsley](http://github.com/guillaumepotier/Parsley.js)
 * [Chosen](https://github.com/harvesthq/chosen)
 
