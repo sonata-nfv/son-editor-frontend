@@ -12,7 +12,7 @@ This is the backend of SONATA's web-based service and function descriptor editor
 * [JS-YAML](https://github.com/nodeca/js-yaml)
 * [Knockout.js](http://knockoutjs.com/)
 * [JQuery](https://jquery.org/)
-* [jQuery Panzoom] (https://github.com/timmywil/jquery.panzoom)
+* [jQuery Panzoom](https://github.com/timmywil/jquery.panzoom)
 * [Parsley](http://github.com/guillaumepotier/Parsley.js)
 * [Chosen](https://github.com/harvesthq/chosen)
 
