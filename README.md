@@ -1,6 +1,6 @@
 # son-editor-frontend
 
-This is the backend of SONATA's web-based service and function descriptor editor. Please check the backend's repository to find installation and configuration instructions as well as further documentation: [son-editor-backend](https://github.com/sonata-nfv/son-editor-backend).
+This is the frontend of SONATA's web-based service and function descriptor editor. The code from this repository is *automatically fetched and installed* during the backend build and installation procedure. Please check the backend's repository to find installation and configuration instructions as well as further documentation: [son-editor-backend](https://github.com/sonata-nfv/son-editor-backend).
 
 ![son-editor screenshot](https://github.com/sonata-nfv/son-editor-frontend/raw/master/screenshot_network_editor.png "Screenshot of son-editor's NSD editor view")
 
