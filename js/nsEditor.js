@@ -592,8 +592,9 @@ function renameVnfOrNs(oldId, newId, className) {
 	// save connections of this node to virtualLinks
 	for ( var i = 0; i < connectionPoints.length; i++) {
 		var connectionPoint = connectionPoints[i];
-		var labels = connectionPoint.id.split(":");
-		var oldCpLabel = oldId + ":" + labels[1];
+		//var labels = connectionPoint.id.split(":");
+		//var oldCpLabel = oldId + ":" + labels[1];
+		var oldCpLabel = connectionPoint.id
 		var ep = instance.getEndpoint(oldCpLabel);
 		var conns = ep.connections;
 		for ( var j = 0; j < conns.length; j++) {
@@ -732,8 +733,9 @@ function drawVnfOrNs(type, id, descriptor) {
 		var cpLabels = [];
 		for (i = 0; i < connectionPoints.length; i++) {
 			var connectionPoint = connectionPoints[i];
-			var labels = connectionPoint.id.split(":");
-			var cpLabel = id + ":" + labels[1];
+			//var labels = connectionPoint.id.split(":");
+			//var cpLabel = id + ":" + labels[1];
+			var cpLabel = connectionPoint.id;
 			cpLabels.push(cpLabel);
 			var e = instance.addEndpoint(id, {
 				uuid : cpLabel,
